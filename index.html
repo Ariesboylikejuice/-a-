@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>小a工作台</title>
+  <meta name="description" content="小a工作台 — 纯前端个人工作面板，数据仅存浏览器本地，可一键部署到 GitHub Pages" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">🅰️</span>
+      <span>小a<span class="muted" style="opacity:.7;font-weight:400"> · 工作台</span></span>
+      <small>个人版</small>
+    </div>
+    <div class="spacer"></div>
+    <div class="pill"><span class="dot"></span> <span id="modePill">数据仅存本浏览器</span></div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar"></nav>
+    <main class="main" id="view"></main>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
